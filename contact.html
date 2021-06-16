@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="styles/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>contact us</title>
+</head>
+<body>
+    <my-header></my-header>
+    <div class="container contact_us">
+        <h1>Contact us</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur condimentum rhoncus tortor efficitur consectetur. Nullam in tempor magna. Praesent mollis ipsum sem, et venenatis ex mollis quis. Fusce efficitur diam tellus, ac volutpat augue varius sed.</p>
+    <div class="row contact_us_cols">
+        <div class="col-sm-6">
+            <div class="row">
+                <div class="col-sm-6 contact_icon">
+                    <i class="fa fa-map-marker"></i>
+                </div>
+                <div class="col-sm-6 contact_text">
+                    <p>4671 Road</p>
+                    <p>Rwanda,Kigali</p>
+                    <p>55077</p>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-sm-6 contact_icon">
+                    <i class="fa fa-phone"></i>
+                </div>
+                <div class="col-sm-6 contact_text">
+                    <p>+250 787-654-321 </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 contact_icon">
+                    <i class="fa fa-envelope"></i>
+                </div>
+                <div class="col-sm-6 contact_text">
+                    <p>vibostore@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 input_area" >
+            <form>
+                <h2> Send us a message</h2>
+                <div class="input_box">
+                    <input class="full_name" type="text" name="text" required="required">
+                    <span class="full_name_text">Full name</span>
+                </div>
+                <div class="input_box">
+                    <input class="email" type="text" name="text" required="required">
+                    <span class="email_text">Email</span>
+                </div>
+                <div class="input_box">
+                    <textarea class="message" type="text" name="text" required="required"></textarea>
+                    <span class="message_text">Type your message...</span>
+                </div>
+                <div>
+                    <button class="btn btn-primary" onclick="feedback()">Send message</button>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+    </div>
+    <my-footer></my-footer>
+<script src="scripts/scripts.js"></script>    
+</body>
+</html>

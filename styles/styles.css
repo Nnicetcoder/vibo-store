@@ -1,0 +1,316 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: lavenderblush;
+}
+
+/** nav bar styles**/
+
+.vibo {
+  font-family: cursive;
+  cursor: pointer;
+}
+.main {
+  background-image: url("../images/gym1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.navbar-brand {
+  font-weight: 1000;
+  font-size: 24px;
+  font-family: cursive;
+}
+.nav-link {
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.8s;
+  color: orange;
+  font-weight: bold;
+}
+.nav-link:hover {
+  transform: scale(1.2);
+}
+
+/*********    main div syles   ******/
+
+.body_section {
+  margin: 30px 0px;
+  margin-top: 0px;
+  padding: 20px 20px;
+}
+
+.home_div {
+  float: left;
+  height: 500px;
+  padding-top: 200px;
+  margin-bottom: 60px;
+}
+.main_text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.explore_btn {
+  background-color: orangered;
+  color: #fff;
+  font-weight: bold;
+  width: 160px;
+  height: 40px;
+  border-radius: 18px;
+  border: none;
+  margin-left: 20px;
+}
+.explore_btn:hover {
+  background-color: brown;
+}
+
+.main_images {
+  margin: 70px 250px;
+  justify-content: center;
+}
+.row img {
+  display: inline-block;
+  width: 240px;
+  height: 280px;
+}
+
+/********   Featured products   ********/
+
+.featured-products {
+  text-align: center;
+  margin-top: 40px;
+}
+.fa {
+  color: orangered;
+}
+.cards {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.card {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 240px 120px;
+  grid-template-areas: "image" "text";
+
+  font-family: roboto;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  text-align: center;
+  width: 300px;
+  height: 360px;
+  transition: 0.8s;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.card_image {
+  grid-area: image;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.card_image img {
+  border-radius: 50%;
+  height: 240px;
+  width: 180px;
+}
+.card_text {
+  grid-area: text;
+  text-align: center;
+  font-weight: bold;
+}
+
+/********* LATEST RPODUCTS     *************/
+
+.latest_products {
+  margin-left: 0px;
+  justify-content: center;
+}
+.cards_latest {
+  display: grid;
+}
+/**  EXCLUSIVE OFFERS SECTION**/
+
+.exclusive_offers {
+  margin: 20px;
+  padding: 10px;
+  padding-top: 70px;
+  margin-bottom: 70px;
+  justify-content: center;
+  align-items: center;
+}
+.exclusive_offers img {
+  padding-top: 40px;
+  justify-content: center;
+}
+
+/***     TESTIMONIALS SECTION   ****/
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.testimonial {
+  border-radius: 40%;
+  width: 160px;
+  align-items: center;
+  margin: 10px;
+  margin-left: 50px;
+}
+.testimonial img {
+  border-radius: 50%;
+  height: 200px;
+  width: 180px;
+}
+
+/***** FOOTER SECTION   *****/
+.footer {
+  background: -webkit-linear-gradient(to right, #bdfff3, #4ac29a);
+  background: linear-gradient(to right, #bdfff3, #4ac29a);
+
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 50px;
+  color: #000;
+  height: 300px;
+  width: 100%;
+}
+.icons {
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.icon {
+  margin: 10px 40px;
+  transition: 0.8s;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.icon:hover {
+  transform: translateY(-10px);
+}
+.fa-facebook,
+.fa-twitter,
+.fa-instagram,
+.fa-youtube {
+  color: black;
+}
+
+/**********
+ABOUT US PAGE
+
+************/
+.about_us {
+  background-color: lavenderblush;
+  margin: 70px 20px;
+}
+.about_us .col-sm-6 {
+  float: left;
+}
+/****ABOUT US PAGE    ********/
+
+.contact_us {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 80px 30px;
+}
+.input_area {
+  background: white;
+  border-radius: 12px;
+  padding-top: 40px;
+}
+.fa-map-marker {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 30px;
+}
+.fa-envelope {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 30px;
+}
+.fa-phone {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 30px;
+}
+.contact_icon,
+.contact_text {
+  padding-top: 20px;
+}
+.contact_us_cols {
+  margin-top: 50px;
+}
+.input_box {
+  margin: 20px;
+  padding: 20px;
+}
+.full_name {
+  border: none;
+  border-bottom: 2px solid black;
+  width: 300px;
+}
+.full_name_text {
+  position: absolute;
+  right: 540px;
+  color: orangered;
+  transition: 0.7s;
+}
+.email_text {
+  position: absolute;
+  right: 570px;
+  color: orangered;
+  transition: 0.7s;
+}
+.message_text {
+  position: absolute;
+  right: 460px;
+  color: orangered;
+  transition: 0.7s;
+}
+.email {
+  border: none;
+  border-bottom: 2px solid black;
+  width: 300px;
+}
+.message {
+  border: none;
+  border-bottom: 2px solid black;
+  width: 300px;
+}
+.full_name:focus ~ span {
+  transform: translateY(-18px);
+}
+.email:focus ~ span {
+  transform: translateY(-18px);
+}
+.message:focus ~ span {
+  transform: translateY(-18px);
+}
